@@ -1,0 +1,14 @@
+.gallery-page div:nth-child(1) {
+  margin-bottom: 3em;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.gallery-grid img {
+  width: 100%;
+}

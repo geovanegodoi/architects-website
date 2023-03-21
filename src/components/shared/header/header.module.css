@@ -1,0 +1,32 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > img {
+  justify-self: start;
+  object-fit: contain;
+  width: 100px;
+}
+
+.navbar-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3em;
+  align-items: center;
+}
+
+.navbar-top > a {
+  line-height: 1.6em;
+  text-align: center;
+  width: 100%;
+  padding: 0em 0em;
+  margin: 0em 0.5em;
+}
+
+.navbar-top > a:hover {
+  font-weight: bold;
+  border-right: 1px var(--secondary-color) solid;
+  border-bottom: 1px var(--secondary-color) solid;
+}

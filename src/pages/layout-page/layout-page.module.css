@@ -1,0 +1,13 @@
+.layout-page {
+  padding: 0em var(--padding-side);
+}
+
+.layout-page > header {
+  margin-bottom: 2em;
+}
+
+.layout-page > h1 {
+  text-align: center;
+  padding: 5em;
+  height: 40vh;
+}

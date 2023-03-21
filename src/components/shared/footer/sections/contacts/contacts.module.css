@@ -1,0 +1,15 @@
+.contacts {
+  color: var(--light-color);
+  display: grid;
+  gap: 1.5em;
+  font-size: 13px;
+}
+
+.contacts div {
+  display: flex;
+  gap: 1em;
+}
+
+.contacts img {
+  width: 10px;
+}

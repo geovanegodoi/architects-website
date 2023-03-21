@@ -1,0 +1,20 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.title > p:nth-child(1) {
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.title > p:nth-child(2) {
+  color: var(--secondaty-color);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}

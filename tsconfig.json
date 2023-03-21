@@ -18,7 +18,17 @@
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "types": ["vite/client", "vitest"]
+    "types": ["vite/client", "vitest"],
+    "paths": {
+      "@website/components/contact": ["src/components/contact/index.ts"],
+      "@website/components/gallery": ["src/components/gallery/index.ts"],
+      "@website/components/home": ["src/components/home/index.ts"],
+      "@website/components/projects": ["src/components/projects/index.ts"],
+      "@website/components/shared": ["src/components/shared/index.ts"],
+      "@website/models": ["src/models/index.ts"],
+      "@website/pages": ["src/pages/index.ts"],
+      "@website/routes": ["src/routes/index.tsx"]
+    }
   },
   "files": [],
   "include": [],
@@ -28,8 +38,16 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./.storybook/tsconfig.json"
     }
   ],
   "compileOnSave": false,
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }

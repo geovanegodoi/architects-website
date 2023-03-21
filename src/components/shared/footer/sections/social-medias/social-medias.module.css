@@ -1,0 +1,11 @@
+.social-medias {
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.social-medias > div {
+  display: flex;
+  gap: 2em;
+}

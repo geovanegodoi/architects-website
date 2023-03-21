@@ -1,0 +1,32 @@
+.goals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5em;
+}
+
+/* .goals h2 {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--primary-color);
+} */
+
+.goal-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.goal-container h1 {
+  color: var(--light-color);
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 234px;
+}
+
+.goal-container p {
+  color: var(--secondary-color);
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 36px;
+}

@@ -1,0 +1,33 @@
+.footer {
+  color: var(--light-color);
+  min-height: 300px;
+  background: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-grid {
+  padding: 3em var(--padding-side);
+  display: grid;
+  grid-template-columns: 0.75fr repeat(3, 1fr);
+  align-items: start;
+  justify-items: start;
+  gap: 5em;
+}
+
+.footer-grid > img {
+  width: 100px;
+  align-self: center;
+}
+
+.trademark {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  grid-row: 2;
+  grid-column: 4 span;
+  padding: 1em 0em;
+  border-top: 1px var(--secondary-color) solid;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.information {
+  display: grid;
+  gap: 1.5em;
+  align-items: center;
+  justify-content: start;
+  font-size: 13px;
+}
+
+.information a {
+  color: var(--light-color);
+}
+
+.information a:hover {
+  font-weight: bold;
+}
