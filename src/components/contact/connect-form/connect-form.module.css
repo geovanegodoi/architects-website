@@ -60,6 +60,6 @@
   font-style: italic;
 }
 
-.connect-form button {
+.connect-form a {
   align-self: flex-start;
 }

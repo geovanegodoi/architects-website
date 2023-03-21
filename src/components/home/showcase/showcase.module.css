@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.showcase-image button {
+.showcase-image a {
   position: absolute;
   left: 0;
   bottom: 0;

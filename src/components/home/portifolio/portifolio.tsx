@@ -24,9 +24,12 @@ export function Portifolio(props: PortifolioProps) {
         ))}
       </div>
       <div className={styles['portifolio-button']}>
-        <Link to="/projects">
-          <Button variant="dark" pointer="right" children="all projects" />
-        </Link>
+        <Button
+          variant="dark"
+          pointer="right"
+          children="all projects"
+          goto="/projects"
+        />
       </div>
     </section>
   );

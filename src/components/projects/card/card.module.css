@@ -29,6 +29,6 @@
   line-height: 25px;
 }
 
-.card-content > button {
+.card-content > a {
   align-self: flex-start;
 }
