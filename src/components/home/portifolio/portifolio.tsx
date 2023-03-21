@@ -16,9 +16,7 @@ export function Portifolio(props: PortifolioProps) {
     <section className={styles['portifolio']}>
       <h2 className="subtitle">Our Projects</h2>
       <div className={styles['portifolio-grid']}>
-        <div className={styles['portifolio-title']}>
-          {/* <h1>LEISURE CENTER</h1> */}
-        </div>
+        <div className={styles['portifolio-title']}></div>
         {images.map((image, index) => (
           <img key={index} src={image} alt={`sample-${index}`} />
         ))}
