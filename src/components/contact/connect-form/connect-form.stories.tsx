@@ -3,7 +3,7 @@ import { ConnectForm } from './connect-form';
 
 const Story: Meta<typeof ConnectForm> = {
   component: ConnectForm,
-  title: 'Components/Home/Connect Form',
+  title: 'Components/Contact/Connect Form',
 };
 export default Story;
 

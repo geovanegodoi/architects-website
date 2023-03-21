@@ -11,9 +11,9 @@ export function Header(props: HeaderProps) {
       <img src={logo} alt="logo" />
       <nav className={styles['navbar-top']}>
         <Link to="/" children="HOME" />
-        <Link to="/" children="GALLERY" />
-        <Link to="/" children="PROJECTS" />
-        <Link to="/" children="CONTACT" />
+        <Link to="gallery" children="GALLERY" />
+        <Link to="projects" children="PROJECTS" />
+        <Link to="contact" children="CONTACT" />
       </nav>
     </header>
   );

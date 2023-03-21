@@ -1,7 +1,65 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.connect-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 0.5fr;
+  gap: 1em;
+  align-items: end;
+}
+
+.connect-form > h2 {
+  grid-row: 1;
+  grid-column: 2 span;
+}
+
+.connect-form > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  grid-row: 2 span;
+  grid-column: 1;
+}
+
+.connect-form img {
+  grid-row: 2 span;
+  grid-column: 2;
+}
+
+.connect-form input,
+.connect-form textarea {
+  border: none;
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+  height: 46px;
+  padding: 0em 1em;
+}
+
+.connect-form input {
+  height: 46 px;
+}
+
+.connect-form textarea {
+  padding-top: 1em;
+  height: 90px;
+}
+
+.connect-form input::placeholder,
+.connect-form textarea::placeholder {
+  color: var(--primary-color);
+  opacity: 0.5;
+}
+
+.connect-form input:focus,
+.connect-form textarea:focus {
+  border: 0.5px var(--primary-color) solid;
+  background-color: #fff;
+  outline: none;
+}
+
+.connect-form p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.connect-form button {
+  align-self: flex-start;
+}

@@ -1,0 +1,34 @@
+.contact-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.contact-information img {
+  width: 100%;
+  left: 0;
+}
+
+.information-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.information-flex > div {
+  margin-bottom: 2em;
+}
+
+.information-flex .name,
+.information-flex .phone {
+  font-weight: bold;
+}
+
+.information-flex .name::before {
+  content: '<<';
+}
+
+.information-flex .name::after {
+  content: '>>';
+}

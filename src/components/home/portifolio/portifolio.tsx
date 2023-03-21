@@ -1,4 +1,5 @@
 import { Button } from '@website/components/shared';
+import { Link } from 'react-router-dom';
 import styles from './portifolio.module.css';
 import photo5 from '/assets/home/photo5.png';
 import photo6 from '/assets/home/photo6.png';
@@ -23,9 +24,9 @@ export function Portifolio(props: PortifolioProps) {
         ))}
       </div>
       <div className={styles['portifolio-button']}>
-        <Button variant="dark" pointer="right">
-          all projects
-        </Button>
+        <Link to="/projects">
+          <Button variant="dark" pointer="right" children="all projects" />
+        </Link>
       </div>
     </section>
   );
